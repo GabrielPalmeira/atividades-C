@@ -1,0 +1,133 @@
+1)
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+    int x;
+    printf("digite um número: \n");
+    scanf("%d", &x);
+    printf("Número digitado: %d \n", x);
+    return 0;
+}
+
+2)
+
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+    int a, b;
+    printf("digite o valor de a: \n");
+    scanf("%d", &a);
+    printf("digite o valor de b: \n");
+    scanf("%d", &b);
+    return 0;
+}   
+
+3)
+
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+    float metros;
+    printf("digite o valor em metros: \n");
+    scanf("%f", &metros);
+    printf("O valor em centímetros é: %.2f \n", metros*100);
+    return 0;
+}
+
+4)
+
+#include <stdio.h>
+#include <locale.h>
+#define PI 3.1415
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+    float raio;
+    printf("Digite o raio do círculo: \n");
+    scanf("%f", &raio);
+    printf("A área do círculo é dada por: %.2f \n", PI*raio*raio)
+    return 0;
+}
+
+5)
+
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+    float horas, dinheiro_por_hora;
+    printf("Quantas horas você trabalha por mês? \n");
+    scanf("%f", &horas);
+    printf("Quanto você recebe por hora? \n");
+    scanf("%f", &dinheiro_por_hora);
+    printf("Total recebido no mês: %.2f \n", horas*dinheiro_por_hora);
+    return 0;
+}
+
+6)
+
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+    int brancos, nulos, validos;
+    printf("digite a quantidade de votos válidos: \n");
+    scanf("%d", &validos);
+    printf("digite a quantidade de votos em branco: \n");
+    scanf("%d", &brancos);
+    printf("digite a quantidade de votos nulos: \n");
+    scanf("%d", &nulos);
+    total = validos+ brancos+ nulos;
+    printf("percentual de votos válidos: %%%f \n", 100*((float) validos/total));
+    printf("percentual de votos em branco: %%%f \n", 100*((float) brancos/total));
+    printf("percentual de votos válidos: %%%f \n", 100*((float) nulos/total));
+    return 0;
+}
+
+7)
+
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+    int dias;
+    float km:
+    printf("digite a quantidade de dias: \n");
+    scanf("%d", &dias);
+    printf("digite a quantidade de km: \n");
+    scanf("%f", &km);
+    printf("total de aluguel: R$%.2f", 60*dias + 0.15*km);
+    return 0;
+}
+
+8)
+
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+    float salario, imposto, sindicato;
+    printf("digite o seu salário: \n");
+    scanf("%f", %salario);
+    imposto = salario*0.08;
+    sindicato = salario*0.05;
+    printf("valor pago em imposto: %.2f \n", imposto);
+    printf("valor pago em sindicato: %.2f \n", sindicato);
+    printf("salário líquido: %.2f \n", salario - (imposto + sindicato));
+    return 0;
+}
+
+
+
+
+
